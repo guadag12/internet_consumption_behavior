@@ -1,7 +1,7 @@
 #################################################################
 ## GV993 - Dissertation in MSc Social Data Science              #
 ##                                                              #
-## Calculate rest time per interaction                          #
+## Calculate & Plot rest time per interaction                   #
 #################################################################
 
 # Packages -----------------------------------------------------------------
