@@ -1,4 +1,4 @@
-<h1 align="center"> Ideology and Internet Behavior </h1>
+<h1 align="center"> Ideology and Internet Behavior :iphone::technologist: </h1>
 <h3 align="center"> A Case Study of Conservatives and Progressives in Argentina </h3>  
 
 </br>
