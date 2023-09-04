@@ -17,13 +17,30 @@
     │   │── 01_exploratory_analysis_rest_time.R
     │   │── 02_hypotesis_test_effect_size.R
     │   │── 03_linear_regression.R
-    │   │── 04_other_models.ipnyb
+    │   │── 04_random_forest_svm.ipnyb
     │   │── linear_regression_rest_time.doc
     │   │── table_no.5.csv
     │   │── table_no.6.csv
     │   │
     ├── 03_ratio
-    │   │── feature_phone_accel
+    │   │── 01_ratio_wrangling_plot.R
+    │   │── 02_hypotesis_test_effect_size.R
+    │   │── 03_linear_regression.R
+    │   │── 03_random_forest_svm.ipnyb
+    │   │── importance_rf.csv
+    │   │── linear_regression_ratio.doc
+    │   │── table A2.6..csv
+    │   │── table A2.7.csv
+    │   │
     ├── 04_reciprocity
+    │   │── 01_reciprocity_temporal_order_weight.R
+    │   │── 02_hypotesis_test_effect_size.R
+    │   │── 03_linear_regression.R
+    │   │── 04_plot_networks.R
+    │   │── importance_rf.csv
+    |   |── linear_regression_repetitive_behavior.doc
+    │   │── linear_regression_ratio.doc
+    │   │── table A2.6..csv
+    │   │── table A2.7.csv
 
     
