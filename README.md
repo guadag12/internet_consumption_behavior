@@ -24,12 +24,6 @@
     │   │
     ├── 03_ratio
     │   │── feature_phone_accel
-    ├── 0_reciprocity
-    │        ├── raw
-    │        │   ├── phone
-    │        │   ├── accel
-    │        │   └── gyro
-    │        ├── watch
-    │            ├── accel
-    │            └── gyro
+    ├── 04_reciprocity
+
     
