@@ -6,8 +6,11 @@
 Repository of the dissertation on "Ideology and Use of time of Internet". The data is not public, but you can find the code, tables and plots in this repository.
 
 In the first folder of "'01_data" is the data cleaning and transformation code.
+
 In the second folder "02_rest_time" is the code to measure y1 on the rest time on the internet per group.
+
 In the third folder "03_ratio" is the code used to measure y2 on the ratio between the duration of device use and the rest time.
+
 In the fourth folder "04_reciprocity" is the code used to measure "y3": reciprocity and temporal order weight.
 
 <!-- :paw_prints:-->
