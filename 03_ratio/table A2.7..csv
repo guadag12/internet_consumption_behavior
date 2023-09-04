@@ -1,0 +1,2 @@
+"Group","Median.Conservatives","Median.Progressives","Welch.s.Test..statistics.","Welch.s.Test..p.value.","Cohen.Test","Mann.Whitney.U.Test.with.Rank.biserial.Correlation","Cliff.Delta"
+"Conservatives vs. Progressives",2.0728758729907,2.09861228866811,2.28988360597441,"0.0224 (significant)","0.162 (small effect size)","-0.084 (negligible)","0.084 (negligible)"

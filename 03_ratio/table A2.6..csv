@@ -1,0 +1,7 @@
+"Group","Median.Conservatives","Median.Progressives","Welch.s.Test..statistics.","Welch.s.Test..p.value.","Cohen.Test","Mann.Whitney.U.Test.with.Rank.biserial.Correlation","Cliff.Delta"
+"Conservatives (age 68) vs. Progressives (age 68)",2.38629436111989,2.64945926627087,2.83755285547889,"0.006 (significant)","0.792 (large effect size)","-0.467 (medium)","0.467 (medium)"
+"Conservatives (age 50) vs. Progressives (age 50)",2.28664787001579,2.09861228866811,-0.692106877789253,"0.4906 (not significant)","-0.128 (negligible effect size)","0.065 (negligible)","-0.065 (negligible)"
+"Conservatives (age 59) vs. Progressives (age 59)",2.31952866480763,2.38629436111989,1.32165919709444,"0.1884 (not significant)","0.299 (small effect size)","-0.14 (negligible)","0.14 (negligible)"
+"Conservatives (age 32) vs. Progressives (age 32)",2.01127908492577,2.02961941718116,0.566516676512335,"0.5756 (not significant)","0.075 (negligible effect size)","-0.037 (negligible)","0.037 (negligible)"
+"Conservatives (age 20) vs. Progressives (age 20)",1.8329091229351,2.09861228866811,1.38439711456313,"0.1782 (not significant)","0.348 (medium effect size)","-0.24 (small)","0.24 (small)"
+"Conservatives (age 41) vs. Progressives (age 41)",1.90179696343753,2.09861228866811,1.53562105760405,"0.1249 (not significant)","0.206 (small effect size)","-0.117 (negligible)","0.117 (negligible)"
