@@ -1,0 +1,20 @@
+Feature,Importance
+age_group,0.26143235233104184
+dummy_ideology,0.10832362661186386
+education_High school (complete & incomplete),0.06700713003672029
+gender_Male,0.05613416047037514
+gender_Female,0.05390639143121621
+region_Buenos Aires,0.053277748835364895
+region_Cuyo,0.052375202084827065
+education_University (complete & incomplete),0.046415540442301784
+region_NOA,0.040847151766803404
+region_Patagonia,0.038365609079561984
+region_Centro,0.037044225483312876
+region_CABA,0.034928783159577356
+education_Postgrad school (complete & incomplete),0.03214046077616096
+dummy_working_Working,0.03130137393889338
+dummy_working_Not working,0.028663406423505376
+region_NEA,0.023534691446901346
+education_Elementary school (complete & incomplete),0.01663053912785429
+region_30,0.012386553065215805
+gender_Other,0.005285053488502167
