@@ -16,8 +16,7 @@ In the fourth folder **"04_reciprocity"** is the code used to measure "y3": reci
 <!-- :paw_prints:-->
 <!-- FOLDER STRUCTURE -->
 <h2 id="folder-structure"> :card_file_box: Folder Structure</h2>
-
-code    
+    code
     .
     │
     ├── 01_data
