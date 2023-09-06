@@ -16,12 +16,11 @@ In the fourth folder **"04_reciprocity"** is the code used to measure "y3": reci
 <!-- :paw_prints:-->
 <!-- FOLDER STRUCTURE -->
 <h2 id="folder-structure"> :card_file_box: Folder Structure</h2>
-
-    code
     .
     │
     ├── 01_data
     │   ├── 01_wrangling_data.R
+    │   ├── 02_entropy_table.R
     │   │
     │── 02_rest_time
     │   │── 01_exploratory_analysis_rest_time.R
