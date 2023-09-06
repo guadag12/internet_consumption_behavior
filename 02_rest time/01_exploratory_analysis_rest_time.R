@@ -319,3 +319,53 @@ scatter3D(x, y, z, pch = 18,  theta = 1, phi = 15,bty = "g",
           surf = list(x = x.pred, y = y.pred, z = z.pred,  
                       facets = NA, fit = fitpoints),
           main = "Plot no.A2.4.: 3D Scatter Plot Analysis of Ideology, Age and Rest Time")
+
+
+
+# Entropy calculation -----------------------------------------------------
+
+# Import dataset
+flow_interaction_arg <- read_csv("~/GitHub/ideology_consumption_network/01_data/flow_interaction_arg.csv")
+flow_interaction_arg <- as.data.frame(flow_interaction_arg)
+
+# Import Survey
+read_wave <- read_csv("~/GitHub/ideology_consumption_network/01_data/read_wave.csv")
+read_wave <- as.data.frame(read_wave)
+
+# Join dataset
+flow_interaction_arg <- flow_interaction_arg %>% left_join(read_wave[,c("panelist_id", "Genero", "Edad", "ideology",
+                                                                        "QSDTrabaja", "Provincia")])
+flow_interaction_arg[,c("panelist_id", "first_type", "second_type", "ideology")]
+
+# Calculate Entropy for Progressives
+transition_counts <- flow_interaction_arg %>%
+   filter(ideology %in% c(1,2)) %>%
+  group_by(first_type, second_type) %>%
+  summarize(count = n())
+
+total_transitions <- transition_counts %>%
+  group_by(first_type) %>%
+  summarize(total = sum(count))
+transition_probabilities <- transition_counts %>%
+  left_join(total_transitions, by = "first_type") %>%
+  mutate(probability = count / total)
+entropy_left <- transition_probabilities %>%
+  group_by(first_type) %>%
+  summarize(entropy = -sum(probability * log2(probability)))
+
+# Calculate Entropy for Conservatives
+
+transition_counts <- flow_interaction_arg %>%
+  filter(ideology %in% c(6,7)) %>%
+  group_by(first_type, second_type) %>%
+  summarize(count = n())
+
+total_transitions <- transition_counts %>%
+  group_by(first_type) %>%
+  summarize(total = sum(count))
+transition_probabilities <- transition_counts %>%
+  left_join(total_transitions, by = "first_type") %>%
+  mutate(probability = count / total)
+entropy_right <- transition_probabilities %>%
+  group_by(first_type) %>%
+  summarize(entropy = -sum(probability * log2(probability)))
